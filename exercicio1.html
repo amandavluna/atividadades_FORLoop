@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de JavaScript</title>
+</head>
+<body>
+    <h1>imprimir o total de sequencia</h1>
+    <div id="sequencia"></div>
+    <div id="sequencia-2"></div>
+
+    <script>
+        let resultado = "";
+        let resultado1 = "";
+        for (let index = 1; index <= 20; index++) {
+
+            resultado += index + "/ 20 </br>";
+            
+            
+        }
+        document.getElementById("sequencia").innerHTML = 
+        resultado;
+
+
+        for (let index = 2; index <= 20; index++) {
+            
+            
+           resultado1 += " 1/" + index + "</br>";
+
+           
+        }
+        document.getElementById("sequencia-2").innerHTML = "</br>" + "1"+ "</br>" + resultado1;
+
+
+    </script>
+    
+</body>
+</html>
